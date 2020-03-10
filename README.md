@@ -10,7 +10,6 @@ Includes by default:
  * CleanBrowsing
  * Yandex
  * AdGuard
- * Neustar
  * Tiarapp
  * Verisign 
  * DNS.WATCH
