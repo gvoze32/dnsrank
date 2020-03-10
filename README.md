@@ -7,13 +7,11 @@ Includes by default:
  * Google
  * Quad9
  * OpenDNS
- * Norton
  * CleanBrowsing
  * Yandex
  * AdGuard
  * Neustar
  * Tiarapp
- * DynDNS
  * Verisign 
  * DNS.WATCH
  * OpeNIC 

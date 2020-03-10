@@ -9,29 +9,22 @@ NAMESERVERS=`cat /etc/resolv.conf | grep ^nameserver | cut -d " " -f 2 | sed 's/
 
 PROVIDERS="
 1.1.1.1#cloudflare 
-4.2.2.1#level3 
 8.8.8.8#google 
 9.9.9.9#quad9
-80.80.80.80#freenom 
 208.67.222.123#opendns 
-199.85.126.10#norton 
 185.228.168.9#cleanbrowsing 
 77.88.8.7#yandex 
 176.103.130.132#adguard 
-8.26.56.26#comodo 
 174.138.21.128#tiarapp 
-198.101.242.72#alternate 
-216.146.35.35#dyn 
 64.6.64.6#verisign 
 84.200.69.80#watch 
 185.121.177.177#openic 
-195.46.39.39#safe 
 91.239.100.100#uncensored 
 156.154.70.1#neustar 
 "
 
 # Domains to test. Duplicated domains are ok
-DOMAINS2TEST="google.com amazon.com facebook.com youtube.com wikipedia.org twitter.com gmail.com github.com pahe.me bola.net anitoki.web.id instagram.com skype.com godaddy.com tokopedia.com shopee.co.id bukalapak.com traveloka.com walmart.com yahoo.com linkedin.com bing.com apple.com jquery.com adobe.com pinterest.com msn.com avast.com hola.org cloudflare.com whatsapp.com yandex.ru viber.com imgur.com giphy.com wikimedia.org flickr.com 500px.com mozilla.org tumblr.com teamviewer.com oracle.com stumbleupon.com steamcommunity.com discordapp.com gravatar.com wordpress.com outbrain.com disqus.com ebay.com vk.com bittorrent.com live.com digg.com office.com accu-weather.com paypal.com dropbox.com microsoft.com baidu.com imdb.com alexa.com vimeo.com naver.com pixiv.net avg.com aol.com cnn.com soundcloud.com kaspersky.com norton.com nytimes.com bbc.co.uk heroku.com goodreads.com rottentomatoes.com samsung.com lazada.co.id dailymail.co.uk alibaba.com spotify.com bloomberg.com symantec.com billboard.com nvidia.com huffpost.com ask.com stackoverflow.com telegraph.co.uk opera.com reuters.com"
+DOMAINS2TEST="google.com amazon.com facebook.com youtube.com wikipedia.org twitter.com gmail.com github.com bola.net goal.com instagram.com skype.com godaddy.com namecheap.com pexels.com freepik.com deviantart.com kaskus.co.id unsplash.com shopify.com pixabay.com canva.com shutterstock.com istockphoto.com theguardian.com kompas.com detik.com tribunnews.com liputan6.com tempo.co suara.com tokopedia.com shopee.co.id bukalapak.com traveloka.com walmart.com yahoo.com linkedin.com bing.com apple.com jquery.com adobe.com pinterest.com msn.com avast.com hola.org cloudflare.com whatsapp.com yandex.ru viber.com imgur.com giphy.com wikimedia.org flickr.com 500px.com mozilla.org tumblr.com teamviewer.com oracle.com stumbleupon.com steamcommunity.com discordapp.com gravatar.com wordpress.com outbrain.com disqus.com ebay.com vk.com bittorrent.com live.com digg.com office.com accu-weather.com paypal.com dropbox.com microsoft.com baidu.com imdb.com alexa.com vimeo.com naver.com pixiv.net avg.com aol.com cnn.com soundcloud.com kaspersky.com norton.com nytimes.com bbc.co.uk heroku.com goodreads.com rottentomatoes.com samsung.com lazada.co.id dailymail.co.uk alibaba.com spotify.com bloomberg.com symantec.com billboard.com nvidia.com huffpost.com ask.com stackoverflow.com telegraph.co.uk opera.com reuters.com"
 
 
 totaldomains=0
