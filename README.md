@@ -16,6 +16,7 @@ Includes by default:
  * OpeNIC 
  * UncensoredDNS 
  * Neustar 
+ * NextDNS
 
 # Required 
 

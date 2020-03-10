@@ -21,6 +21,7 @@ PROVIDERS="
 185.121.177.177#openic 
 91.239.100.100#uncensored 
 156.154.70.1#neustar 
+45.90.28.250#next
 "
 
 # Domains to test. Duplicated domains are ok
